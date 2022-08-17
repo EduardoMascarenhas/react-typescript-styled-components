@@ -54,7 +54,7 @@ function App() {
               />
               <Route
                 path="/contato"
-                element={<ContactPage />}
+                element={<ContactPage theme={theme.theme} />}
               />
             </Routes>
           </Router>
